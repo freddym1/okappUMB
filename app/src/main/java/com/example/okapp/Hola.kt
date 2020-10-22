@@ -10,6 +10,7 @@ class Hola : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hola)
 
+        //Captura de datos del registro e impresos en pantalla
         var bundle = intent.extras
         if (bundle != null) {
             textViewNombreOk.text = "Bienvenido "+bundle.getString("data1")

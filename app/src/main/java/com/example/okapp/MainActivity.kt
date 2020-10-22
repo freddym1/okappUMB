@@ -10,11 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Acción para ir a la ventana de registro
         btnRegistro.setOnClickListener {
             startActivity(Intent(this,Registro::class.java))
         }
-
-
 
     }
 }
